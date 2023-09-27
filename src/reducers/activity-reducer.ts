@@ -1,7 +1,7 @@
 import { Activity } from "../types"
 
 export type ActivityActions = 
-    { type: 'save-activity', payload: { newActivity : Activity } } 
+    { type: 'save-activity', payload: { newActivity : Activity } }  
 
 type ActivityState = {
     activities : Activity[]
